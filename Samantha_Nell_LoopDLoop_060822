@@ -1,0 +1,16 @@
+var speed= 1
+for (var x = 0; x <= 8 ; x += 2) {
+    console.log("Mile " + x + " achieved")
+    if (((x==0 || x>6) || speed<=5.5)) {
+    console.log ("No candy for you Glen Coco")
+    } else {
+        
+        console.log("Give out candy")
+    }
+}
+
+
+// Stretch Feature 1
+
+// Create a new loop where the runner only gets a piece of candy at every 2 miles AND if they were going move than 5.5 miles per hour.?
+
